@@ -10,5 +10,10 @@ export class SvgTitleComponent implements OnInit {
 
   constructor() {}
 
+  resetTitle(){
+    console.log(`title: ${this.title}`);
+    this.title = 'Angular';
+  }
+
   ngOnInit() {}
 }
